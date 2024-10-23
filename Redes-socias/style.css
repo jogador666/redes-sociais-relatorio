@@ -1,8 +1,8 @@
 body{
-  background-color: blue;
+  background-color: var(color);
   color:blue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height:100vh;
+  height: 100vh;
   margin:0;
   
 
