@@ -9,6 +9,7 @@ body{
 header{
   background-color:  var(--primary-color);
   text-align: center;
+  padding: 1px;
   }
 
 h1{
@@ -26,10 +27,17 @@ nav a {
   text-decoration: none;
   color: var(--bg-color);
   margin: 0rem 2rem 3rem 0rem;
+  font-size: 12rem;
+}
+nav a:hover {
+  text-decoration: underline;
+  transform: scale(0.90);
+  transition: transform 0.1s;
+
+
 }
 
 
 
 
 
-}
